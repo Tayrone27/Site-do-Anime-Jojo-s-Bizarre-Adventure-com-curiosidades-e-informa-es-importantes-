@@ -1,0 +1,649 @@
+Página Principa -  home
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime - JoJo's Bizarre Adventure</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1> <img src="./jojo_s_bizarre_adventure-removebg-preview.png" alt="logo"></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="GaleriaDePersonagens.html">Personagens</a></li>
+        <li><a href="Episódios.html">Episódios</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <img src="./Dicas de animes Jojo Bizarre Adventure.jpg" alt="JoJo's Bizarre Adventure Banner" class="banner">
+    <div class="intro">
+      <p>JoJo's Bizarre Adventure é uma das franquias de anime mais amadas, conhecida por sua arte única e histórias épicas. A série segue várias gerações da família Joestar enquanto lutam contra forças sobrenaturais.</p>
+    </div>
+  </section>
+
+  <style>
+    
+    .image-container {
+        width: 100%;  
+        overflow-x: auto;  
+        white-space: nowrap;  
+        padding: 20px 0;  
+        box-sizing: border-box;
+    }
+
+    
+    .image-container img {
+        width: 300px;  
+        height: auto;  
+        margin-right: 20px;  
+        border-radius: 8px;  
+        transition: transform 0.3s ease;  
+    }
+
+    
+    .image-container img:hover {
+        transform: scale(1.1);  
+    }
+</style>
+    <section class="image-container">
+        
+        <img src="./jonathan.jpg" alt="Imagem 1" width="200" height="180">
+        <img src="./joseph.jpg" alt="Imagem 2">
+        <img src="./jotaro.jpg" alt="Imagem 3">
+        <img src="./josuke.jpg" alt="Imagem 4">
+        <img src="./jolyne.jpg" alt="Imagem 5">
+        <img src="./giorno.jpg" alt="Imagem 6">
+        
+  <script src="script.js"></script>
+</body>
+</html>
+Página de personagens
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personagens Principais</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .character {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      width: 300px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .character img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .character h3 {
+      font-size: 1.5rem;
+      color: #333;
+      margin: 10px 0;
+    }
+
+    .character p {
+      color: #666;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .character button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .character button:hover {
+      background-color: #0056b3;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    h4{
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top:20px;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="characters">
+    <h2>Personagens Principais</h2>
+
+    
+    <div class="container">
+      <div class="character">
+        <img src="./star platinum.jpg" alt="Jotaro Kujo">
+        <h3>Jotaro Kujo</h3>
+        <p>Jotaro Kujo é um personagem da série de anime e mangá JoJo's Bizarre Adventure criado por Hirohiko Araki. É um personagem recorrente da série, sendo o protagonista na terceira parte (Stardust Crusaders), e aparecendo na quarta (Diamond is Unbreakable) quinta (Golden Wind) e sexta (Stone Ocean) partes. É considerado o personagem mais icônico e popular da série.</p>
+        <button class="open-modal" data-target="jotaro-modal">Mais detalhes</button>
+      </div>
+      
+    </div>
+    <div class="container">
+        <div class="character">
+          <img src="./Jonathana.jpg" alt="jonathan Joestar">
+          <h3>Jonathan Joestar</h3>
+          <p>Jonathan Joestar é um personagem fictício da série de manga JoJo's Bizarre Adventure, escrita e ilustrada por Hirohiko Araki. Jonathan é o protagonista principal do primeiro arco de história da série, Phantom Blood. Na Inglaterra dos fins do século 19, o jovem filho de um latifundiário abastado, Jonathan Joestar, conhece o seu novo irmão adotado Dio Brando, que o odeia e planeja usurpá-lo como o herdeiro da família Joestar. Quando as tentativas de Dio são impedidas por JoJo, ele transforma-se num vampiro com o uso de uma Máscara de Pedra antiga e destrói a propriedade Joestar. Jonathan embarca numa jornada, conhece novos aliados e especializa-se na técnica de Hamon (波紋, "ondulação") para parar Dio, que fez da dominação mundial o seu novo objetivo. Jonathan Joestar tinha 20 anos, 10 meses e 3 dias.</p>
+          <button class="open-modal" data-target="jotaro-modal">Mais detalhes</button>
+        </div>
+        
+      </div>
+      <div class="container">
+        <div class="character">
+          <img src="./jonathan.webp" alt="Joseph Joestar">
+          <h3>Joseph Joestar</h3>
+          <p>Joseph Joestar é o protagonista de Battle Tendency e um aliado em Stardust Crusaders e Diamond is Unbreakable. Ele é o segundo JoJo da série JoJo's Bizarre Adventure. Ele também é o segundo JoJo mais recorrente da série depois de seu neto Jotaro Kujo e é um de seus personagens mais conhecidos.
+            Joseph é um usuário natural do Hamon e eventual usuário do Stand, empunhando o Stand fotográfico psíquico, Hermit Purple. Joseph enfrenta as ameaças fantásticas que se aproximam dele ao longo de sua vida com iniciativa e engenhosidade impressionante, lutando contra Vampiros, os Homens do Pilar e usuários malévolos do Stand.</p>
+          <button class="open-modal" data-target="jotaro-modal">Mais detalhes</button>
+        </div>
+        
+      </div>
+      <div class="container">
+        <div class="character">
+          <img src="./Josuke h.jpg" alt="Josuke">
+          <h3>Josuke Higashikata</h3>
+          <p>Josuke Higashikata é o protagonista da quarta parte de JoJo's Bizarre Adventure, Diamond is Unbreakable2. Ele é um jovem aflito com amnésia retrógada, tendo ausência de quaisquer memórias antes de ter sido descoberto por Yasuho Hirose perto das Paredes Oculares na cidade de Morioh. Josuke se dedica a descobrir sua antiga identidade e aqueles originalmente associados a ela</p>
+          <button class="open-modal" data-target="jotaro-modal">Mais detalhes</button>
+        </div>
+        
+      </div>
+      <div class="container">
+        <div class="character">
+          <img src="./Giorno g.jpg" alt="Giorno Giovanna">
+          <h3>Giorno Giovanna</h3>
+          <p>Giorno é o filho ilegítimo de DIO, concebido com o corpo roubado de Jonathan Joestar. Ele é introduzido como Haruno Shiobana (汐華しおばな 初流乃はるの, Shiobana Haruno), um adolescente meio-japonês morando na Itália. Giorno fala da sua intenção de se juntar à poderosa gangue Passione e de seu sonho de se tornar um Gang-Star (combinação de Gangster e Superstar) para trazer a virtude de volta à corrupta máfia italiana.
+            Giorno é um usuário natural de Stand, seu Stand, Gold Experience, é capaz de criar vida.</p>
+          <button class="open-modal" data-target="jotaro-modal">Mais detalhes</button>
+        </div>
+        
+      </div>
+      <div class="container">
+        <div class="character">
+          <img src="./Jolyne kujo.jpg" alt="Jolyne Kujo">
+          <h3>Jolyne Cujoh</h3>
+          <p>Jolyne Cujoh (空条 徐倫, Kūjō Jorīn) é a protagonista da sexta parte de JoJo's Bizarre Adventure, Stone Ocean, e a sexta JoJo da série. Ela é a filha de uma mulher estadunidense e Jotaro Kujo, o protagonista de Stardust Crusaders.
+            Acusada de um homicídio enquanto dirigindo sob o efeito de álcool, Jolyne é mandada para a Prisão Green Dolphin Street, onde ela investiga e batalha o mais confiado discípulo de DIO, o Padre Enrico Pucci. Inicialmente uma jovem comum, Jolyne rapidamente desperta seu Stand, Stone Free, durante seu tempo na prisão.</p>
+          <button class="open-modal" data-target="jotaro-modal">Mais detalhes</button>
+        </div>
+        
+      </div>
+      <h4>Personagem Extra</h4>
+      
+      <div class="container">
+        <div class="character">
+          <img src="./Dio Brando.jpg" alt="Dio Brando">
+          <h3>Dio Brando</h3>
+          <p>Dio Brando, mais tarde simplesmente chamado de DIO, é o antagonista principal da primeira e terceira parte de JoJo's Bizarre Adventure, Phantom Blood e Stardust Crusaders, também como o póstumo antagonista primário da sexta parte, Stone Ocean. Sua influência é sentida por todas primeiras seis partes da série, com personagens principais como Giorno Giovanna e Enrico Pucci sendo diretamente conectados a ele.
+            Originalmente um homem de criação humilde porém com uma ambição inigualável, Dio é um vilão de pouca consciência, vasta destreza, e uma fome insaciável por poder. Depois de se tornar um vampiro e depois um usuário de Stand, Dio juntou muitos capangas entre ele e é responsável por muitos dos eventos principais da série, da morte de Jonathan Joestar à abrupta aquisição de poderes de Stand da Família Joestar, e seu legado persiste por toda a série.
+            Dio é o primeiro antagonista principal de JoJo's Bizarre Adventure. Ele também é o pai de Giorno, o protagonista de Vento Aureo, e também de um punhado de outros filhos ilegítimos.</p>
+          <button class="open-modal" data-target="jotaro-modal">Mais detalhes</button>
+        </div>
+        
+      </div>
+  </section>
+
+  
+
+
+
+</body>
+</html>
+
+página de curiosidade 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curiosidades Incríveis Sobre Jojo's</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="curiosities">
+    <h2>Curiosidades Incríveis Sobre Jojo's</h2>
+    <div class="curiosity-cards">
+      <div class="curiosity-card">
+        <img src="./Criador de Jojo.jpg" alt="Criador de Jojo's" class="curiosity-image">
+        <h3>Hirohiko Araki</h3>
+        <p>Hirohiko Araki (em japonês: 荒木 飛呂彦; hepburn: Araki Hirohiko; Sendai, 7 de junho de 1960) é um artista de mangá japonês conhecido por sua série JoJo's Bizarre Adventure, publicada pela primeira vez na revista Weekly Shōnen Jump em 1987, que até hoje já vendeu mais de 100 milhões de cópias só no Japão e que também é conhecida por suas frequentes referências ao rock ocidental e à Itália, ambos dos quais Araki supostamente gosta muito.</p>
+        <button class="toggle-details">Ver mais</button>
+        <div class="additional-details">
+          <p>Autor da Obra</p>
+        </div>
+      </div>
+
+      <div class="curiosity-card">
+        <img src="./Dio brando123.png" alt="Dio Brando origem" class="curiosity-image">
+        <h3>Origem de Dio Brando</h3>
+        <p>O vilão mais amado e popular da história do mangá Dio Brando, referencia diretamente a Ronnie James Dio, nome artístico de Ronald James Padavona (1942-2010), músico, produtor e compositor de heavy metal. Considerado um dos melhores vocalistas de todos os tempos, com um enorme talento, com técnicas vocais dificílimas e voz marcante, servindo como influência para os melhores vocalistas da atualidade. É lembrado também como o criador da "mão chifrada", o símbolo do rock que representa dois chifres.</p>
+        <button class="toggle-details">Ver mais</button>
+        <div class="additional-details">
+          <p>Dio Brando Origem</p>
+        </div>
+      </div>
+
+      <div class="curiosity-card">
+        <img src="./jojo99.jpg" alt="canal especializado" class="curiosity-image">
+        <h3>Canal Jojo99</h3>
+        <p>Jojo99 é um canal do youtube especializado em analizar episódios de todas as temporadas de Jojo's Bizarre Adventure. Com analises específicas de todos os personagens.</p>
+        <a href="https://www.youtube.com/@CANALJOJO99"><button class="toggle-details">Ver mais</button> </a>
+        <div class="additional-details">
+          <p>Essa temperatura extrema foi registrada em 1983 e é mais fria do que qualquer coisa que a maioria de nós jamais experimentará!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f4f7;
+      color: #333;
+    }
+
+    
+    body {
+      background-image: url(./fotode\ fundo\ curiosidades.webp); 
+      background-size: cover;
+      background-position: center;
+    }
+
+    #curiosities {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: rgba(94, 108, 156, 0.8); 
+      color: white;
+      border-radius: 10px;
+    }
+
+    #curiosities h2 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .curiosity-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 0 20px;
+    }
+
+    .curiosity-card {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .curiosity-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .curiosity-card h3 {
+      font-size: 1.8rem;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .curiosity-card p {
+      font-size: 1.1rem;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .curiosity-card button {
+      padding: 10px 15px;
+      background-color: #ff9800;
+      color: #fff;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .curiosity-card button:hover {
+      background-color: #e68900;
+    }
+
+    .additional-details {
+      display: none;
+      padding-top: 10px;
+      font-size: 1rem;
+      color: #444;
+    }
+
+    .curiosity-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+  </style>
+</body>
+</html>
+página de episódios 
+<section id="episodes">
+    <h2>Episódios Favoritos</h2>
+    <div class="episodes-list">
+      <div class="episode">
+        <h3>Stardust Crusaders;
+             Ep. 1 - O Homem Possuído por um Espírito Maligno</h3>
+       <a href="https://www.youtube.com/watch?v=eROIzRN_Qi8"><img src="./jojospart3sc.webp" alt="Episódio 1">
+       </a>
+        <p>O começo da jornada de Jotaro e seus amigos.</p>
+        <button class="open-trailer"  data-video="https://www.youtube.com/watch?v=eROIzRN_Qi8">Assistir Trailer</button>
+      </div>
+  
+      <div class="episode">
+        <h3>Golden Wind; 
+            Ep. 25 - Spice Girls</h3>
+        <a href="https://www.youtube.com/watch?v=E8WehfOlYlY"><img src="./golden wind.jpg" alt="Episódio 25">
+        </a>
+        <p>Uma batalha épica contra um dos maiores inimigos.</p>
+        <button class="open-trailer" data-video="https://www.youtube.com/watch?v=E8WehfOlYlY">Assistir Trailer</button>
+      </div>
+  
+      <div class="episode">
+        <h3>Stardust Crusaders;
+            Ep. 48: The Last Stand</h3>
+        <a href="https://www.youtube.com/watch?v=ywnlPd4KaYw"><img src="./Dio no fundo.jpg" alt="Episódio 48">
+        </a>
+        <p>A luta final que define o destino de todos os personagens.</p>
+        <button class="open-trailer" data-video="https://www.youtube.com/watch?v=ywnlPd4KaYw">Assistir Trailer</button>
+      </div>
+    </div>
+  </section>
+<style>
+    #episodes {
+  background-image:url(./dio\ olhar.webp);
+  background-size: cover;  
+  background-position: center; 
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-attachment: fixed; 
+}
+
+#episodes h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  color: #fff;  
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.episodes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.episode {
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.episode:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.episode img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.episode h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.episode p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.open-trailer {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.open-trailer:hover {
+  background-color: #00408d;
+}
+
+</style>  
+
+página de contatos 
+
+<section id="contact">
+  <h2>Contato</h2>
+  <form id="contact-form">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" placeholder="Digite seu nome" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Digite seu email" required>
+  
+      <label for="message">Mensagem:</label>
+      <textarea id="message" placeholder="Digite sua mensagem" required></textarea>
+  
+      <button type="submit">Enviar</button>
+  </form>
+  <div id="success-message" class="hidden">
+      <p>Mensagem enviada com sucesso!</p>
+  </div>
+  <style>
+      #contact {
+          background-color: #f4f7fa;
+          background-image: url('./josuke\ fundo.webp'); 
+          background-size: cover; 
+          background-position: center; 
+          background-repeat: no-repeat; 
+          padding: 40px;
+          max-width: 800px;
+          margin: 0 auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      #contact h2 {
+          font-family: 'Arial', sans-serif;
+          font-size: 2rem;
+          color: #333;
+          text-align: center;
+          margin-bottom: 20px;
+      }
+
+      form {
+          display: flex;
+          flex-direction: column;
+      }
+
+      label {
+          font-size: 1rem;
+          color: #555;
+          margin-bottom: 8px;
+      }
+
+      input, textarea {
+          padding: 12px;
+          font-size: 1rem;
+          border: 2px solid #ddd;
+          border-radius: 4px;
+          margin-bottom: 16px;
+          transition: border-color 0.3s;
+      }
+
+      input:focus, textarea:focus {
+          border-color: #0056b3;
+          outline: none;
+      }
+
+      textarea {
+          resize: vertical;
+          min-height: 100px;
+      }
+
+      button {
+          padding: 14px;
+          font-size: 1.1rem;
+          background-color: #0056b3;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+          background-color: #00408d;
+      }
+
+      #success-message {
+          display: none;
+          background-color: #4CAF50;
+          color: white;
+          padding: 15px;
+          margin-top: 20px;
+          text-align: center;
+          border-radius: 4px;
+      }
+
+      #success-message p {
+          margin: 0;
+      }
+
+      .hidden {
+          display: none;
+      }
+  </style>
+</section>
+
+css usado 
+.character img {
+    transition: transform 0.3s, border 0.3s;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .character img:hover {
+    transform: scale(1.1);
+    border: 2px solid #f5a623;
+    align-items: center;
+  }
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  
+  }
+  
+  header {
+    
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .dark-mode {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+button {
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff4500;
+    transform: scale(1.05);
+  }
+
+javascript usado
